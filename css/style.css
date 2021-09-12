@@ -60,7 +60,7 @@ h2 {
     
 }
 h3 {
-    color: cadetblue;
+    color: rgb(0, 45, 75);
     
 }
 table {
@@ -158,13 +158,51 @@ form {
 }
 
 .gridApoyos{ /* Aplicando Grids, no muy exitosamente :( */
-display: grid;
-background-color: cornsilk;
-grid-template-columns: auto auto auto;
+    width: 100%;
+    height: auto;
+    display: grid;
+    background-color: cornsilk;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "apoyo apoyo" 
+    "apoyo1 apoyo2 "
+    "apoyo3 apoyo4";
+    gap: 10px;
+    padding: 25px;
+}
+.apoyo-div h3{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.apoyo-div h3{
+    color: black;
+    text-align: center;
 }
 
+.apoyo{
+    height: 20vh;
+    grid-area: apoyo;}
+
+.apoyo1{
+    height: 20vh;
+    grid-area: apoyo1;}
+
+.apoyo2{
+    height: 20vh;
+    grid-area: apoyo2;}
+
+.apoyo3{
+    height: 20vh;
+    grid-area: apoyo3;}
+
+.apoyo4{
+    height: 20vh;
+    grid-area: apoyo4;}
+    
 .gridApoyos div{
-    background-color: cadetblue;
+    background-color:rgb(209, 207, 207);
     text-align: justify;
     color: darkslateblue;
     border: 3px solid cornsilk;
