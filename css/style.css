@@ -17,10 +17,16 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background-color: cornflowerblue;
+    background-color: #6495ed;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
-
+@media screen {
+    .nav a{
+      display: block;
+      width: 100%  
+    }
+}
 .logo {
     color: cornsilk;
     text-transform: uppercase;
@@ -104,9 +110,11 @@ form {
     font-size: 12px;
     font-weight: bold;
 }
-.footer { /* Acá comienza footer */
+/* Acá comienza footer */
+.footer { 
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     min-height: 20vh;
     background-color: cornflowerblue;
@@ -114,9 +122,11 @@ form {
 }
 .navLinksFooter{
     display: flex; 
+    flex-direction: row;
     text-transform: uppercase;
     justify-content: space-evenly;
-    width: 80%; 
+    align-items: center;
+   
 }
 .navLinksFooter a{
     color: cornsilk;
@@ -124,6 +134,7 @@ form {
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 9px;
+    padding: 0 10px;
 }
 
 .navLinksFooter {
@@ -138,6 +149,7 @@ form {
 }
 /* Acá Termina footer */
 
+/*Equipo*/
 .descripcionEquipo { /* Flex Box */
     background-color: cornsilk;
     border-top-color: darkslateblue;
@@ -145,8 +157,20 @@ form {
     padding: 10px;
     display: flex;
     flex-direction: row; /* Cajitas en fila */
-    justify-content: space-between;
+    justify-content: space-around;
     
+}
+.colaboradoras{
+    width: 25vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 0; */
+}
+
+.colaboradoras img{
+    padding: 15px 0; 
 }
 .box{
     
@@ -154,10 +178,9 @@ form {
     margin: 5px;
     font-size: 20px;
     border: 5px solid cadetblue;
-    
 }
 
-.gridApoyos{ /* Aplicando Grids, no muy exitosamente :( */
+.gridApoyos{ /* Aplicando Grids*/
     width: 100%;
     height: auto;
     display: grid;
@@ -169,7 +192,7 @@ form {
     "apoyo1 apoyo2 "
     "apoyo3 apoyo4";
     gap: 10px;
-    padding: 25px;
+    padding: 15px;
 }
 .apoyo-div h3{
     display: flex;
@@ -206,4 +229,28 @@ form {
     text-align: justify;
     color: darkslateblue;
     border: 3px solid cornsilk;
+}
+/*Formularios*/
+.formulario-container{
+    width: 100%;
+    background-color: paleturquoise;
+}
+.formulario{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 25px auto;
+    padding: 25px 0;
+}
+
+.formulario div{
+    margin: 25px;
+}
+
+.formulario div textarea{
+    width: 45vh;
 }

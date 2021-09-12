@@ -42,15 +42,20 @@
 <h1>Contactos</h1>
 
 <h3>Encantadas de contactar con vos!</h3>
-
-<div class="Formulario">
-        <form action="enviar.php" method="GET"> <!-- Comienza el formulario -->
-            <label for="nombre">Nombre y Apellido</label>
-            <input type="text" id="nombre">
-            <label for="email">Email</label>
-            <input type="email"id="email">
-            <label for="mensaje">Tu mensaje</label>
+<div class="formulario-container">
+    <form class="formulario" action="enviar.php" method="GET">
+        <!-- Comienza el formulario -->
+        <div class="">
+            <label for="nombre"></label>
+            <input type="text" id="nombre" placeholder="Nombre y Apellido">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email">
+        </div>
+        <div class="">
+            <label for="mensaje"></label>
             <textarea name="consulta" rows="10" cols="30">Ingrese su consulta</textarea>
+        </div>
+        <div class="">
             <input type="text" id="mensaje">
             <label for="apoyos">Apoyos</label>
             <select name="apoyos">
@@ -60,45 +65,58 @@
                 <option name="Búsqueda laboral"></option>
                 <option name="Adaptación institucional"></option>
             </select>
+        </div>
+        <div class="">
             <input type="radio" name="sexo"> Hombre <input type="radio" name="sexo" id="">Mujer
 
             <input type="checkbox" name="acepta" id="acepta"> ACEPTA TÉRMINOS
+        </div>
+        <div class="">
             <input type="submit" value="Eviar Mensaje">
             <input type="resset" value="Escribir nuevo mensaje">
-                  
-            <footer><!-- Comienza Footer -->
+        </div>
+    </form>
 
-                <div class="footer">
-                
-                <div><!-- Acá van los íconos de contactos --></div>
-                   
-                <nav>   <!-- Comienza el menú -->
-                    <div class="contactosFooter">
-                     <p>Contactos
-                    </div>
-                    <ul class="navLinksFooter" >         
+    <footer>
+        <!-- Comienza Footer -->
+        <div class="footer">
+
+            <div>
+                <!-- Acá van los íconos de contactos -->
+            </div>
+
+            <nav>
+                <!-- Comienza el menú -->
+
+                <ul class="navLinksFooter">
+
                     <li>
                         <a href="./index.html">Inicio</a>
-                     </li>
+                    </li>
                     <li>
-                        <a href="./Equipo.html">Equipo</a> 
-                    </li>  
+                        <a href="./Equipo.html">Equipo</a>
+                    </li>
                     <li>
                         <a href="./Apoyos.html">Apoyos</a>
                     </li>
                     <li>
                         <a href="./CapacitacionProfesional.html">Capacitaciones</a>
                     </li>
-                    <li> 
+                    <li>
                         <a href="./BlogyNoticias.html">Blog y Noticias</a>
                     </li>
                     <li> <a href="./Contactos.html">Contactos</a>
                     </li>
                 </ul>
-                </nav> <!-- Termina el menú -->
-                
-                <div><!-- Acá va barrita buscadora --></div>
-                </div>
-                </footer><!-- Termina Footer -->
-</body> <!-- Termina el body -->
+            </nav> <!-- Termina el menú -->
+
+            <div>
+                <!-- Acá va barrita buscadora -->
+            </div>
+        </div>
+    </footer><!-- Termina Footer -->
+<!-- Termina el body -->
+
+</div>
+
 </html>
