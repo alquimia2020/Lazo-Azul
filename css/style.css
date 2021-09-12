@@ -1,0 +1,171 @@
+/* Globales */
+*{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1rem;
+    color: rgb(26, 25, 25);
+    font-family: 'Roboto', sans-serif;
+}
+/* FinGlobales */
+
+/* Comienza nav todas las etiquetas */
+nav{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: cornflowerblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    color: cornsilk;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links {
+    display: flex; 
+    text-transform: uppercase;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.nav-links a{
+    color: cornsilk;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+/* Termina nav todas las etiquetas */
+header 
+    
+}
+
+header nav {
+    background-color: rgb(56, 197, 207);
+}
+
+h2 {
+    background-color: cornflowerblue;
+    color: midnightblue;
+    
+}
+h3 {
+    color: cadetblue;
+    
+}
+table {
+
+    background-color: mistyrose;
+ }
+ table font{
+     font-family: 'Roboto', sans-serif;
+     color: midnightblue;
+    
+ }
+form {
+    padding: 1px;
+    display: block;
+    height: 400px;
+    margin: 3px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 800px;
+    background-color: paleturquoise;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    -ms-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer { /* Acá comienza footer */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20vh;
+    background-color: cornflowerblue;
+    
+}
+.navLinksFooter{
+    display: flex; 
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    width: 80%; 
+}
+.navLinksFooter a{
+    color: cornsilk;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.navLinksFooter {
+    list-style: none;
+}
+.contactosFooter {
+    color: cornsilk;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 12px;
+}
+/* Acá Termina footer */
+
+.descripcionEquipo { /* Flex Box */
+    background-color: cornsilk;
+    border-top-color: darkslateblue;
+    border-bottom-color: darkslateblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: row; /* Cajitas en fila */
+    justify-content: space-between;
+    
+}
+.box{
+    
+    background-color: darkgrey;
+    margin: 5px;
+    font-size: 20px;
+    border: 5px solid cadetblue;
+    
+}
+
+.gridApoyos{ /* Aplicando Grids, no muy exitosamente :( */
+display: grid;
+background-color: cornsilk;
+grid-template-columns: auto auto auto;
+}
+
+.gridApoyos div{
+    background-color: cadetblue;
+    text-align: justify;
+    color: darkslateblue;
+    border: 3px solid cornsilk;
+}
