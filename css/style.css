@@ -8,6 +8,7 @@ body {
     font-size: 1rem;
     color: rgb(26, 25, 25);
     font-family: 'Roboto', sans-serif;
+    background-color: beige;
 }
 @media (min-width: 768px) and (orientation: landscape)  {
       
@@ -63,13 +64,18 @@ header nav {
     background-color: rgb(56, 197, 207);
 }
 
+
+h1 {
+    color: cornflowerblue;
+}
+
 h2 {
-    background-color: cornflowerblue;
-    color: white;
+    
+    color: rgb(123, 163, 238);
     
 }
 h3 {
-    color: rgb(0, 45, 75);
+    color: rgb(73, 132, 243);
     
 }
 table {
@@ -263,7 +269,7 @@ form {
     height: auto;
     max-width: 100px;
     max-height: 100px;
-    transform: rotate(20deg); /* Transformación */
+    /* transform: rotate(20deg); -  Transformación le quito el efecto para ponerlos derechos como lo observado en la 3er entrega*/
 }
 /*Formularios*/
 .formulario-container{
