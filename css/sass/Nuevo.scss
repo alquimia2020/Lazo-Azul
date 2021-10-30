@@ -9,7 +9,15 @@ body {
     color: rgb(26, 25, 25);
     font-family: 'Roboto', sans-serif;
     background-color: beige;
+    text-align: center;
 }
+.InicioHome {    
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 768px) and (orientation: landscape)  {
       
 }
