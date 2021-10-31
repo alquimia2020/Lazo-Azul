@@ -11,16 +11,10 @@ body {
     background-color: beige;
     text-align: center;
 }
-.InicioHome {    
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-@media (min-width: 768px) and (orientation: landscape)  {
-      
-}
+@media (min-width: 768px) and (orientation: landscape) 
+    
+
 /* FinGlobales */
 
 /* Comienza nav todas las etiquetas */
@@ -64,9 +58,6 @@ nav{
     list-style: none;
 }
 /* Termina nav todas las etiquetas */
-header 
-    
-}
 
 header nav {
     background-color: rgb(56, 197, 207);
@@ -75,6 +66,8 @@ header nav {
 h2 {
     background-color: cornflowerblue;
     color: white;
+    box-sizing: border-box;
+    padding: 3rem;;
     
 }
 h3 {

@@ -158,6 +158,48 @@ form {
 }
 /* Acá Termina footer */
 
+/*InicioHome*/
+.TitularFlorecerHome {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.ComoHacemosLazoAzul {
+    display: flex;
+    padding: 0;
+    height: 300px;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImagenSeparadora{
+    display: inline-block;
+    line-height: 100%;
+    align-content: center;
+    max-width: 50px;
+}
+
+.TextoComoHacemos {
+    width: 25vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  /*   display: flex;
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;  */
+}
 /*Equipo*/
 .descripcionEquipo { /* Flex Box */
     background-color: cornsilk;
