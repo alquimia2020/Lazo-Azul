@@ -67,20 +67,32 @@ header nav {
 
 h1 {
     color: cornflowerblue;
+    margin-left: 2rem;
 }
 
 h2 {
     
     color: rgb(123, 163, 238);
-    
+    margin-left: 2rem;
 }
 h3 {
     color: rgb(73, 132, 243);
-    
+    margin-left: 2rem;
 }
-table {
+.ServiciosTabla {
+    display: block;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
 
-    background-color: mistyrose;
+}
+
+table {
+    align-content: center ;
+    background-color: mistyrose
+    
  }
  table font{
      font-family: 'Roboto', sans-serif;
@@ -159,15 +171,6 @@ form {
 /* Acá Termina footer */
 
 /*InicioHome*/
-.TitularFlorecerHome {
-    display: flex;
-    padding: 10px;
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-}
 
 .ComoHacemosLazoAzul {
     display: flex;
@@ -190,16 +193,20 @@ form {
 .TextoComoHacemos {
     width: 25vw;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  /*   display: flex;
     padding: 10px;
-    height: 200px;
-    width: 100%;
+    display: flex;
     justify-content: center; 
-    align-items: center;  */
-}
+    align-items: center;
+  }
+  .InicioVideo {
+    display: block;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+
+  }
 /*Equipo*/
 .descripcionEquipo { /* Flex Box */
     background-color: cornsilk;
@@ -229,6 +236,15 @@ form {
     margin: 5px;
     font-size: 20px;
     border: 5px solid cadetblue;
+}
+
+.ApoyosAnimacion {
+    display: block;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 
 .TopApoyos img{
@@ -314,9 +330,20 @@ form {
     /* transform: rotate(20deg); -  Transformación le quito el efecto para ponerlos derechos como lo observado en la 3er entrega*/
 }
 /*Formularios*/
+.FormDeContacto {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;  
+    width: 80vw;
+}
+
 .formulario-container{
     width: 100%;
-    background-color: paleturquoise;
+    background-color: rgb(224, 255, 255);
 }
 .formulario{
     width: 80%;
